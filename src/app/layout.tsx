@@ -4,10 +4,9 @@ import { LangProvider } from "@/i18n/LangProvider";
 import { dict } from "@/i18n/dict";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://biying-landing.pages.dev"),
+  metadataBase: new URL("https://biying.ink"),
   title: dict.zh.meta.title,
   description: dict.zh.meta.description,
-  icons: { icon: "/logo.png" },
   openGraph: {
     title: dict.zh.meta.title,
     description: dict.zh.meta.description,
