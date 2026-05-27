@@ -185,6 +185,40 @@ export const dict = {
       inst3: "无限联盟",
       inst3En: "Infinite Alliance",
     },
+    announcement: {
+      badge: "重要公告 · 點擊查看",
+      eyebrow: "OFFICIAL ANNOUNCEMENT",
+      title: "BY 戰略收購 · 升級為 蓝山·必赢(BMBY)",
+      greeting:
+        "致 蓝山·必赢(BMBY)社區、合作夥伴及所有關注本生態的支持者:",
+      paragraphs: [
+        "BY 已由海外戰略機構正式完成收購,並在此基礎上獲得 200 萬美元戰略融資,共同啟動全新一代鏈上金融生態 —— 蓝山·必赢(BMBY)。",
+        "本輪由 蓝山资本(BlueMount Capital)、UZ Capital、无限联盟(Infinite Alliance) 三家機構聯合領投參投。",
+        "收購完成後,原 BY 主代幣繼續沿用,品牌全面升級為「蓝山·必赢(BMBY)」,正式進入全新運營階段。基金會將以鏈上規則主導治理,持續孵化旗下子生態,構建以 BNB 鏈為底座的全球化 Web3 金融生態系統。",
+        "「靜態收益 + 動態獎勵」雙軌通證機制、21 代推薦返佣、1500 超級節點權益保持不變;合約規則全部上鏈,長期共建者共享協議成長價值。",
+      ],
+      consortiumTitle: "聯合領投",
+      consortium: ["蓝山资本", "UZ Capital", "无限联盟"],
+      fundingAmount: "USD 2M",
+      fundingNote: "戰略融資",
+      windowTitle: "節點優先購買權 · 打款窗口",
+      windowOpenLabel: "打款開始",
+      windowOpen: "2026 年 5 月 28 日 12:00(北京時間)",
+      windowCloseLabel: "打款結束",
+      windowClose: "2026 年 5 月 30 日 12:00(北京時間)",
+      windowAddressLabel: "打款地址",
+      windowAddress: "0x————————————————————————————",
+      windowAddressNote:
+        "地址即將公佈 —— 請以官方 X(@BetwinLabs) / Telegram(BetwinBlueMount) 最終公告為準。",
+      windowFooter:
+        "於窗口內完成打款的用戶,將獲得超級節點優先購買權,優先級高於後續公開發售。",
+      signature: "—— 蓝山·必赢(BMBY)基金會 · 2026 年 5 月",
+      ctaPrimary: "我已了解",
+      ctaSecondary: "前往 Telegram",
+      copy: "複製",
+      copied: "已複製",
+      close: "關閉",
+    },
     footer: {
       tagline:
         "讓參與者既是用戶,也是貢獻者,更是生態價值共享者。",
@@ -384,6 +418,40 @@ export const dict = {
       inst2En: "—",
       inst3: "Infinite Alliance",
       inst3En: "无限联盟",
+    },
+    announcement: {
+      badge: "Important Announcement · Tap to view",
+      eyebrow: "OFFICIAL ANNOUNCEMENT",
+      title: "BY Acquired · Now Operating as BMBY (蓝山·必赢)",
+      greeting:
+        "To the BMBY community, partners, and supporters of the ecosystem:",
+      paragraphs: [
+        "BY has been formally acquired by overseas strategic institutions and has received USD 2 million in strategic financing to launch a new-generation on-chain financial ecosystem — BMBY (蓝山·必赢).",
+        "This round is co-led by BlueMount Capital (蓝山资本), UZ Capital, and Infinite Alliance (无限联盟).",
+        "Following the acquisition, the BY token continues; the brand is fully upgraded to BMBY (蓝山·必赢) and enters a new operating phase. Under a foundation-led governance model, BMBY will incubate sub-ecosystems and build a global Web3 financial ecosystem anchored on BNB Chain.",
+        "The dual-track tokenomic engine (static yield + dynamic rewards), the 21-tier referral program, and the 1,500 super-node framework remain unchanged — protocol rules are enforced fully on-chain so long-term builders share the upside.",
+      ],
+      consortiumTitle: "Co-Led By",
+      consortium: ["BlueMount Capital", "UZ Capital", "Infinite Alliance"],
+      fundingAmount: "USD 2M",
+      fundingNote: "Strategic Round",
+      windowTitle: "Node Priority Purchase · Payment Window",
+      windowOpenLabel: "Opens",
+      windowOpen: "12:00, May 28 2026 (Beijing Time / UTC+8)",
+      windowCloseLabel: "Closes",
+      windowClose: "12:00, May 30 2026 (Beijing Time / UTC+8)",
+      windowAddressLabel: "Payment Address",
+      windowAddress: "0x————————————————————————————",
+      windowAddressNote:
+        "Final address to be released on official X (@BetwinLabs) / Telegram (BetwinBlueMount).",
+      windowFooter:
+        "Users who complete payment within this window will receive Super Node priority purchase rights, ranked above the subsequent public sale.",
+      signature: "—— BMBY (蓝山·必赢) Foundation · May 2026",
+      ctaPrimary: "I Understand",
+      ctaSecondary: "Open Telegram",
+      copy: "Copy",
+      copied: "Copied",
+      close: "Close",
     },
     footer: {
       tagline:
