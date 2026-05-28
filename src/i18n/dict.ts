@@ -208,6 +208,7 @@ export const dict = {
       windowClose: "2026 年 5 月 30 日 12:00(北京時間)",
       windowAddressLabel: "打款地址",
       windowAddress: "0x0832cf1f0639843F5a94a51BB7441cB1d8D48B1E",
+      qrNote: "僅向該地址轉入 BSC / BEP20(BNB Chain)資產",
       windowAddressNote:
         "僅支援 BNB Chain(BSC)網絡;打款前請務必核對地址,並以官方 X(@BetwinLabs) / Telegram(BetwinBlueMount) 公告為準。",
       windowFooter:
@@ -442,6 +443,7 @@ export const dict = {
       windowClose: "12:00, May 30 2026 (Beijing Time / UTC+8)",
       windowAddressLabel: "Payment Address",
       windowAddress: "0x0832cf1f0639843F5a94a51BB7441cB1d8D48B1E",
+      qrNote: "Send only BSC / BEP20 (BNB Chain) assets to this address",
       windowAddressNote:
         "BNB Chain (BSC) network only. Verify the address before sending; always cross-check with official X (@BetwinLabs) / Telegram (BetwinBlueMount).",
       windowFooter:

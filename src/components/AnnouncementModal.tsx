@@ -1,6 +1,7 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import Image from "next/image";
 import { useEffect, useState } from "react";
 import { useT } from "@/i18n/LangProvider";
 import { Logo } from "./Logo";
@@ -163,7 +164,27 @@ export function AnnouncementModal() {
                   <div className="text-[10px] text-text-dim uppercase tracking-[0.18em]">
                     {t.announcement.windowAddressLabel}
                   </div>
-                  <div className="mt-1.5 flex items-center gap-2 rounded-lg bg-bg-mid/60 border border-white/10 px-3 py-2.5 font-mono text-[12px] sm:text-sm text-brand-glow break-all">
+
+                  <div className="mt-2 flex flex-col items-center">
+                    <div className="rounded-2xl bg-white p-2.5 shadow-[0_0_28px_rgba(199,125,255,0.3)]">
+                      <Image
+                        src="/node-address-qr.png"
+                        alt={t.announcement.windowAddress}
+                        width={160}
+                        height={160}
+                        className="size-36 sm:size-40 rounded-lg"
+                      />
+                    </div>
+                    <div className="mt-2.5 inline-flex items-center gap-1.5 text-[11px] font-medium text-brand-glow">
+                      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <path d="M12 16v-4M12 8h.01" />
+                      </svg>
+                      {t.announcement.qrNote}
+                    </div>
+                  </div>
+
+                  <div className="mt-3 flex items-center gap-2 rounded-lg bg-bg-mid/60 border border-white/10 px-3 py-2.5 font-mono text-[12px] sm:text-sm text-brand-glow break-all">
                     <span className="flex-1 select-all">
                       {t.announcement.windowAddress}
                     </span>
