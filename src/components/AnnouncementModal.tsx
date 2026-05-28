@@ -172,6 +172,8 @@ export function AnnouncementModal() {
                         alt={t.announcement.windowAddress}
                         width={160}
                         height={160}
+                        priority
+                        unoptimized
                         className="size-36 sm:size-40 rounded-lg"
                       />
                     </div>
