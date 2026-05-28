@@ -207,9 +207,9 @@ export const dict = {
       windowCloseLabel: "打款結束",
       windowClose: "2026 年 5 月 30 日 12:00(北京時間)",
       windowAddressLabel: "打款地址",
-      windowAddress: "0x————————————————————————————",
+      windowAddress: "0x0832cf1f0639843F5a94a51BB7441cB1d8D48B1E",
       windowAddressNote:
-        "地址即將公佈 —— 請以官方 X(@BetwinLabs) / Telegram(BetwinBlueMount) 最終公告為準。",
+        "僅支援 BNB Chain(BSC)網絡;打款前請務必核對地址,並以官方 X(@BetwinLabs) / Telegram(BetwinBlueMount) 公告為準。",
       windowFooter:
         "於窗口內完成打款的用戶,將獲得超級節點優先購買權,優先級高於後續公開發售。",
       signature: "—— 蓝山·必赢(BMBY)基金會 · 2026 年 5 月",
@@ -441,9 +441,9 @@ export const dict = {
       windowCloseLabel: "Closes",
       windowClose: "12:00, May 30 2026 (Beijing Time / UTC+8)",
       windowAddressLabel: "Payment Address",
-      windowAddress: "0x————————————————————————————",
+      windowAddress: "0x0832cf1f0639843F5a94a51BB7441cB1d8D48B1E",
       windowAddressNote:
-        "Final address to be released on official X (@BetwinLabs) / Telegram (BetwinBlueMount).",
+        "BNB Chain (BSC) network only. Verify the address before sending; always cross-check with official X (@BetwinLabs) / Telegram (BetwinBlueMount).",
       windowFooter:
         "Users who complete payment within this window will receive Super Node priority purchase rights, ranked above the subsequent public sale.",
       signature: "—— BMBY (蓝山·必赢) Foundation · May 2026",

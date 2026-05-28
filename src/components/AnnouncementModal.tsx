@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 import { useT } from "@/i18n/LangProvider";
 import { Logo } from "./Logo";
 
-const STORAGE_KEY = "bmby.announcement.v1.seen";
 const TELEGRAM_URL = "https://t.me/BetwinBlueMount";
 
 export function AnnouncementModal() {
@@ -13,18 +12,10 @@ export function AnnouncementModal() {
   const [open, setOpen] = useState(false);
   const [copied, setCopied] = useState(false);
 
+  // Show on every page load / refresh.
   useEffect(() => {
-    try {
-      const seen = window.localStorage.getItem(STORAGE_KEY);
-      if (!seen) {
-        const id = window.setTimeout(() => setOpen(true), 420);
-        return () => window.clearTimeout(id);
-      }
-    } catch {
-      // localStorage blocked → still show once per session
-      const id = window.setTimeout(() => setOpen(true), 420);
-      return () => window.clearTimeout(id);
-    }
+    const id = window.setTimeout(() => setOpen(true), 420);
+    return () => window.clearTimeout(id);
   }, []);
 
   useEffect(() => {
@@ -47,11 +38,6 @@ export function AnnouncementModal() {
 
   const close = () => {
     setOpen(false);
-    try {
-      window.localStorage.setItem(STORAGE_KEY, "1");
-    } catch {
-      // ignore
-    }
   };
 
   const copyAddress = async () => {
