@@ -5,7 +5,7 @@ import { useT } from "@/i18n/LangProvider";
 import { Logo } from "./Logo";
 import { LangSwitcher } from "./LangSwitcher";
 
-const DAPP_URL = "#"; // placeholder until real dapp URL available
+const DAPP_URL = "https://biying.fit";
 
 export function Header() {
   const t = useT();
@@ -59,6 +59,8 @@ export function Header() {
             <LangSwitcher />
             <a
               href={DAPP_URL}
+              target="_blank"
+              rel="noopener noreferrer"
               className="relative inline-flex items-center gap-1.5 rounded-full bg-gradient-to-r from-brand-primary to-brand-bright px-3.5 sm:px-5 py-2 text-xs sm:text-sm font-semibold text-white animate-pulse-glow shimmer-overlay"
             >
               <span>{t.nav.dapp}</span>

@@ -5,7 +5,7 @@ import Image from "next/image";
 import { useT } from "@/i18n/LangProvider";
 import { ParticlesBackground } from "./ParticlesBackground";
 
-const DAPP_URL = "#";
+const DAPP_URL = "https://biying.fit";
 
 export function HeroSection() {
   const t = useT();
@@ -128,6 +128,8 @@ export function HeroSection() {
             >
               <a
                 href={DAPP_URL}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-brand-primary to-brand-bright px-7 py-3.5 text-sm font-semibold text-white animate-pulse-glow shimmer-overlay"
               >
                 <span>{t.hero.ctaPrimary}</span>
