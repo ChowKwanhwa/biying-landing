@@ -9,7 +9,6 @@ import { ReferralSection } from "@/components/ReferralSection";
 import { NodesSection } from "@/components/NodesSection";
 import { BackingSection } from "@/components/BackingSection";
 import { Footer } from "@/components/Footer";
-import { AnnouncementModal } from "@/components/AnnouncementModal";
 
 export default function Home() {
   return (
@@ -27,7 +26,6 @@ export default function Home() {
         <BackingSection />
       </main>
       <Footer />
-      <AnnouncementModal />
     </>
   );
 }
